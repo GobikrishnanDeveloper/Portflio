@@ -1,0 +1,111 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 60px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.logo span {
+  color: crimson;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s, border-bottom 0.3s;
+}
+
+.nav-links li a:hover {
+  color: crimson;
+  border-bottom: 2px solid crimson;
+  padding-bottom: 4px;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 60px;
+  background: linear-gradient(135deg, #fff, #f9f9f9);
+}
+
+.home-text {
+  max-width: 50%;
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.role {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.role span {
+  color: crimson;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn.hire {
+  background: crimson;
+  color: #fff;
+}
+.btn.hire:hover {
+  background: darkred;
+}
+
+.btn.projects {
+  background: #333;
+  color: #fff;
+}
+.btn.projects:hover {
+  background: #000;
+}
+
+.home-img img {
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}

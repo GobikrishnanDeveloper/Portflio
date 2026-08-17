@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 60px;
+  background: black; /* Black background */
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Gradient Button */
+.btn-gradient {
+  background: linear-gradient(135deg, crimson, darkred);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-gradient:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 0, 0, 0.4);
+}
+
+/* Outline Button */
+.btn-outline {
+  background: transparent;
+  color: crimson;
+  padding: 12px 24px;
+  border: 2px solid crimson;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s, transform 0.3s;
+}
+
+.btn-outline:hover {
+  background: crimson;
+  color: white;
+  transform: scale(1.05);
+}
